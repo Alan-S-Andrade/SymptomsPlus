@@ -65,7 +65,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         map = googleMap;
-        LatLng McKinley = new LatLng(40.1028, 88.2199);
+        LatLng McKinley = new LatLng(40.102910, -88.219265);
         map.addMarker(new MarkerOptions().position(McKinley).title("McKinley Health Center"));
         map.moveCamera(CameraUpdateFactory.newLatLng(McKinley));
     }
