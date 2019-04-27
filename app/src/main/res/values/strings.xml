@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="choose_your_symptoms">Choose your symptoms:</string>
+    <string name="app_name">MP5</string>
+    <string name="map">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="textview">TextView</string>
+    <string name="fever">fever</string>
+    <string name="cramps">cramps</string>
+    <string name="cough">cough</string>
+    <string name="headache">headache</string>
+    <string name="diarrhea">diarrhea</string>
+    <string name="dizziness">dizziness</string>
+    <string name="congestion">congestion</string>
+    <string name="appetite_loss">appetite loss</string>
+    <string name="heartburn">heartburn</string>
+    <string name="vomiting">vomiting</string>
+    <string name="todo">TODO</string>
+    <string name="choose_your_symptoms">Choose your Symptoms:</string>
+    <string name="reset">reset</string>
+    <string name="you_may_have_the_following_conditions">You may have the following conditions:</string>
+    <string name="next">Next</string>
 </resources>
