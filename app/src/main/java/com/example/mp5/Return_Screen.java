@@ -174,7 +174,7 @@ public final class Return_Screen extends AppCompatActivity {
         Acute_Sinusitis.add(0, "Congestion");
         Acute_Sinusitis.add(1, "Cough");
         Acute_Sinusitis.add(2, "Acute Sinusitis");
-        Acute_Sinusitis.add(3, "Acute sinusitis is an inflammation of the sinuses caused by infection lasting less than 4 weeks. Sinusitis often develops when swelling, inflammation, and mucus from a cold block nasal passages. This makes it easier for bacteria to grow. Organisms can produce gas, and when your sinuses are not draining, pressure can quickly build and cause the infection to spread. Viruses are the most common cause of acute sinusitis, but bacteria, fungi, and allergies may also cause it. Sinus pain and tenderness are common, but severe pain may indicate an abscess or other complication.");
+        Acute_Sinusitis.add(3, "Acute sinusitis is an inflammation of the sinuses caused by infection lasting less than 4 weeks. Sinusitis often develops when swelling, inflammation, and mucus from a cold block nasal passages. This makes it easier for bacteria to grow. Organisms can produce gas, and when your sinuses are not draining, pressure can quickly build up and cause the infection to spread. Viruses are the most common cause of acute sinusitis, but bacteria, fungi, and allergies may also cause it. Sinus pain and tenderness are common, but severe pain may indicate an abscess or other complication.");
         Influenza.add(0, "Fever");
         Influenza.add(1, "Cough");
         Influenza.add(2, "Influenza");
