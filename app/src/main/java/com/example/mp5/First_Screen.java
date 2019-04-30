@@ -7,6 +7,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class First_Screen extends AppCompatActivity {
 
     String chooseSymptoms = "Choose your Symptoms:";
@@ -31,37 +34,41 @@ public class First_Screen extends AppCompatActivity {
     }
     public void onClickNext(View view) {
         TextView header = findViewById(R.id.heading);
+        TextView secondHeader = findViewById(R.id.secondHeading);
         if (!(header.getText().toString().equals(chooseSymptoms))) {
-            startActivity(new Intent(getApplicationContext(), Return_Screen.class));
+            String first_sypm = (header.getText().toString());
+            String second_symp = (secondHeader.getText().toString());
+            Intent primero = new Intent(getApplicationContext(), Return_Screen.class);
+            primero.putExtra("Second", second_symp);
+            primero.putExtra("First", first_sypm);
+            startActivity(primero);
         }
     }
-    public boolean onClickFever(View view) {
+    public void onClickFever(View view) {
         TextView header = findViewById(R.id.heading);
         TextView secondHeader = findViewById(R.id.secondHeading);
         if (header.getText().toString().equals(chooseSymptoms)){
-            header.setText("Fever chosen");
-            return true;
+            header.setText("Fever");
         } else {
-            secondHeader.setText("Fever chosen");
-            return true;
+            secondHeader.setText("Fever");
         }
     }
     public void onClickHeadache(View view) {
         TextView header = findViewById(R.id.heading);
         TextView secondHeader = findViewById(R.id.secondHeading);
         if (header.getText().toString().equals(chooseSymptoms)){
-            header.setText("Headache chosen");
+            header.setText("Headache");
         } else {
-            secondHeader.setText("Headache chosen");
+            secondHeader.setText("Headache");
         }
     }
     public void onClickCough(View view) {
         TextView header = findViewById(R.id.heading);
         TextView secondHeader = findViewById(R.id.secondHeading);
         if (header.getText().toString().equals(chooseSymptoms)){
-            header.setText("Cough chosen");
+            header.setText("Cough");
         } else {
-            secondHeader.setText("Cough chosen");
+            secondHeader.setText("Cough");
         }
     }
 
@@ -69,63 +76,63 @@ public class First_Screen extends AppCompatActivity {
         TextView header = findViewById(R.id.heading);
         TextView secondHeader = findViewById(R.id.secondHeading);
         if (header.getText().toString().equals(chooseSymptoms)){
-            header.setText("Diarrhea chosen");
+            header.setText("Diarrhea");
         } else {
-            secondHeader.setText("Diarrhea chosen");
+            secondHeader.setText("Diarrhea");
         }
     }
     public void onClickCramps(View view) {
         TextView header = findViewById(R.id.heading);
         TextView secondHeader = findViewById(R.id.secondHeading);
         if (header.getText().toString().equals(chooseSymptoms)){
-            header.setText("Cramps chosen");
+            header.setText("Cramps");
         } else {
-            secondHeader.setText("Cramps chosen");
+            secondHeader.setText("Cramps");
         }
     }
     public void onClickDizziness(View view) {
         TextView header = findViewById(R.id.heading);
         TextView secondHeader = findViewById(R.id.secondHeading);
         if (header.getText().toString().equals(chooseSymptoms)){
-            header.setText("Dizziness chosen");
+            header.setText("Dizziness");
         } else {
-            secondHeader.setText("Dizziness chosen");
+            secondHeader.setText("Dizziness");
         }
     }
     public void onClickCongestion(View view) {
         TextView header = findViewById(R.id.heading);
         TextView secondHeader = findViewById(R.id.secondHeading);
         if (header.getText().toString().equals(chooseSymptoms)){
-            header.setText("Congestion chosen");
+            header.setText("Congestion");
         } else {
-            secondHeader.setText("Congestion chosen");
+            secondHeader.setText("Congestion");
         }
     }
     public void onClickAppetiteLoss(View view) {
         TextView header = findViewById(R.id.heading);
         TextView secondHeader = findViewById(R.id.secondHeading);
         if (header.getText().toString().equals(chooseSymptoms)){
-            header.setText("Appetite Loss chosen");
+            header.setText("Appetite Loss");
         } else {
-            secondHeader.setText("Appetite Loss chosen");
+            secondHeader.setText("Appetite Loss");
         }
     }
     public void onClickHeartburn(View view) {
         TextView header = findViewById(R.id.heading);
         TextView secondHeader = findViewById(R.id.secondHeading);
         if (header.getText().toString().equals(chooseSymptoms)){
-            header.setText("Heartburn chosen");
+            header.setText("Heartburn");
         } else {
-            secondHeader.setText("Heartburn chosen");
+            secondHeader.setText("Heartburn");
         }
     }
     public void onClickVomiting(View view) {
         TextView header = findViewById(R.id.heading);
         TextView secondHeader = findViewById(R.id.secondHeading);
         if (header.getText().toString().equals(chooseSymptoms)){
-            header.setText("Vomiting chosen");
+            header.setText("Vomiting");
         } else {
-            secondHeader.setText("Vomiting chosen");
+            secondHeader.setText("Vomiting");
         }
     }
     @Override

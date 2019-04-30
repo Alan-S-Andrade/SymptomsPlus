@@ -1,5 +1,8 @@
 package com.example.mp5;
 
+import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -8,13 +11,13 @@ import java.util.ArrayList;
 Lists Order:
     The first item on the list (list[0]) is a Symptom.
     The second item (list[1]) is the other symptom.
-    The third item (list[2]) is the name of the Disease.
-    The last item (list[3]) is the description of the disease.
+    The third item (list[2]) is the other symptom.
+    The fourth item (list[3]) is the name of the Disease.
+    The last item (list[4]) is the description of the disease.
 
  */
 
-
-public class Diseases {
+public class Diseases extends AppCompatActivity {
     public List<List<String>> Diseases = new ArrayList<>();
     public List<String> Asthma = new ArrayList<>();
     public List<String> Acute_Sinusitis = new ArrayList<>();
@@ -37,6 +40,7 @@ public class Diseases {
     public List<String> Major_Depression = new ArrayList<>();
     public List<String> Gastritis = new ArrayList<>();
     public List<String> Intestinal_Obstruction = new ArrayList<>();
+
 
     public void set_all() {
         Asthma.add(0, "Cough");

@@ -76,7 +76,6 @@ public class MainActivity extends AppCompatActivity implements
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), First_Screen.class));
-
             }
         });
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
