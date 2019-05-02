@@ -170,7 +170,7 @@ public final class Return_Screen extends AppCompatActivity {
         Asthma.add(0, "Cough");
         Asthma.add(1, "Cough");
         Asthma.add(2, "Asthma");
-        Asthma.add(3, "Asthma is a lung condition that causes airways to swell and become inflamed. Asthma makes it hard to breathe. Some people may have minor symptoms, but others may have severe symptoms that interfere with daily life. Having severe asthma may put you at risk for a life-threatening asthma attack. Symptoms of an asthma attack include wheezing, chest tightness, coughing, and shortness of breath. Asthma is a lifelong condition that can be managed but not cured. Avoiding asthma triggers and taking medication help most people avoid attacks and keep symptoms under control.");
+        Asthma.add(3, "Asthma is a lung condition  that causes airways to swell and become inflamed. Asthma makes it hard to breathe. Some people may have minor symptoms, but others may have severe symptoms that interfere with daily life. Having severe asthma may put you at risk for a life-threatening asthma attack. Symptoms of an asthma attack include wheezing, chest tightness, coughing, and shortness of breath. Asthma is a lifelong condition that can be managed but not cured. Avoiding asthma triggers and taking medication help most people avoid attacks and keep symptoms under control.");
         Acute_Sinusitis.add(0, "Congestion");
         Acute_Sinusitis.add(1, "Cough");
         Acute_Sinusitis.add(2, "Acute Sinusitis");
